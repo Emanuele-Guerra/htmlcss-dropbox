@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.head-flex{
+    background-color: pink;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 15px 0 15px;
+}
+.list-flex{
+    display: inline-block;
+}
+header li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em;
+}
+    
+header a{
+    text-decoration: none;
+    color: black
+}
+header button{
+    color: white;
+    background-color: cadetblue;
+    border-style: none;
+    padding: 5px 1em;
+}
+.jumbo{
+    margin: 50px auto;
+    width: 65%;
+}
+.title-cont{
+    width: 65%;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 50px auto 10px;
+}
+.jumbo-flex{
+    display: flex;
+    margin: 50px auto 0;
+    width: 65%;
+}
+.j-column{
+    width: 35%;
+    min-height: 100px;
+}
+.j-img{
+    width: 65%;
+    
+}
+.jumbo-img{
+    width: 120%;
+}
+.main-but{
+    color: white;
+    border-style: none;
+    padding: 5px 1em;
+    background-color: cadetblue;
+    margin: 25px 0;
+}
+.fa-arrow-down{
+    height: 100px;
+    text-align: center;
+}
+.arrow{
+    margin-top: 30px;
+}
+.title-A{
+
+    width: 60%;
+    margin: 20px auto;
+}
+.sub-title{
+    font-size: 30px;
+}
+.sb1{
+    margin-bottom: 40px;
+
+}
+.title-A span{
+    margin-right: 50px;
+}
+.flex-column{
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.column{
+    
+    width: calc(90% / 3);
+    min-height: 100px;
+    border: 1px solid black;
+}
+.col-icon{
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    border: 1px solid black;
+}
+.last-box{
+    margin: 0 auto 100px;
+    width: 60%;
+    border: 1px solid black;
+    min-height: 100px;
+}
+.flex-s2{
+    display: flex;
+    margin: 50px auto;
+    width: 60%;
+    min-height: 100px;
+}
+.s2-img{
+   width: 60%;
+   background-color: chartreuse;    
+
+}
+.s2-text{
+   width: 40%;
+   background-color: gainsboro;
+}
+.s2-sub{
+    min-height: 30px;
+    width: 60%;
+    margin: auto;
+}
+.flex-s2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 60%;
+    min-height: 300px;
+    
+}
+.s2-column{
+    width: calc(95% / 3);
+    background-color: coral;
+    min-height: 100px;
+    margin-bottom: 40px;
+}
+.sb2{
+    margin: 100px 0 50px;
+}
+.s2-last-cont{
+    width: 60%;
+    min-height: 100px;
+    margin: 50px auto;
+}
+.sb3{
+    margin-bottom: 40px;
+}
+.flex-s3{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+.s3-cont{
+    width: calc(100% / 3);
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100px;
+}
+.s3-cont img{
+    width: 50%;
+}
+.middle{
+    overflow: auto;
+    height: 400px;
+}
+.s4-container{
+    width: 100%;
+    min-height: 200px;
+    padding-top: 50px;
+    background-color: dodgerblue;
+}
+.s4-flex{
+    width: 60%;
+    min-height: 200px;
+    margin: 50px auto;
+    display: flex;
+    align-items: baseline;
+
+}
+.s4-l{
+    width: 60%;
+}
+.s4-r{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+.s4-r button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    padding: 5px 1em;
+}
+.s5-cont{
+    width: 60%;
+    margin: 90px auto;
+}
+.s5-flex{
+    width: 60%;
+    margin: auto;
+    
+
+}
+.s5-column{
+    min-height: 30px;
+    display: flex;
+    border-top: 1px solid black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    justify-content: space-between;
+}
+.s5-column i{
+    padding-right: 2em;
+    font-size: 12px;
+}
+.last{
+    border-bottom: 1px solid black;
+}
+h4{
+    font-size: 12px;
+}
+.ft-container{
+    width: 100%;
+    margin-top: 100px;
+}
+.ft-flex{
+    width: 80%;
+    min-height: 300px;
+    margin: 50px auto 0;
+    display: flex;
+}
+.ft-column{
+    width: 20%;
+    height: 200px;
+    padding: 2em 1em 0;
+}
+footer li{
+    
+    padding-top: 1em;
+    font-size: 12px;
+    list-style: none;
+}
+footer{
+    color: white;
+    background-color: black;
+    position: relative;
+}
+.language{
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+    font-size: 10px;
+    border-top: 1px solid white;
+    padding-top: 5em;
+}
+.mask{
+    width: 1070px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 290px;
+    right: 0px;
+}
+
