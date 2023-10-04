@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+button:hover{
+    opacity: 0.7;
+}
+
 .head-flex{
     background-color: rgb(255, 255, 255);
     width: 100%;
@@ -34,14 +38,22 @@ header a{
     font-size: 16px;
     text-decoration: none;
     color: black
-    
+}
+header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 80px;
 }
 header button{
     color: white;
     background-color: #0061FF;
     border-style: none;
     padding: 5px 1em;
+    height: 100%;
 }
+
+
 .jumbo{
     margin: auto;
     padding-top: 50px;
@@ -76,19 +88,24 @@ header button{
 .jumbo-img{
     width: 115%;
 }
+main{
+    padding-top: 80px;
+}
 main p{
-    font-size: 16px;
+    font-size: 14px;
 }
 main span{
     font-size: 16px;
 }
 .main-but{
     color: white;
-    border-style: none;
-    padding: 5px 1em;
+    
+    padding: 15px 1em;
+    border: none;
+    margin-bottom: 2em;
     background-color: #0061FF;
     margin: 25px 0;
-    font-size: 16px;
+    font-size: 14px;
 }
 .fa-arrow-down{
     height: 100px;
@@ -102,10 +119,11 @@ main span{
 .title-A{
 
     width: 60%;
-    margin: 20px auto;
+    margin: 20px auto 60px;
 }
 .sub-title{
     font-size: 30px;
+    margin-top: 60px;
 }
 .sb1{
     margin-bottom: 40px;
@@ -161,10 +179,18 @@ main span{
 }
 .col-but{
     background-color: #0061FF;
-    padding: 5px 1em;
+    padding: 15px 1em;
     color: white;
     border: none;
     margin-bottom: 2em;
+}
+.col-but4{
+    background-color: #0061FF;
+    padding: 15px 1em;
+    color: white;
+    border: none;
+    margin-bottom: 2em;
+   
 }
 .fa-building{
     padding-right: 5px;
@@ -239,10 +265,13 @@ main hr{
     font-size: 12px;
 }
 .buttondiv{
-    width: 50%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     padding-left: 1em;
+}
+.divflex-box{
+    width: 50%;
 }
 h5{
     font-size: 20px;
@@ -276,7 +305,7 @@ h5{
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     border: 1px solid black;
-    padding: 5px 1em;
+    padding: 15px 1em;
     margin: 2em 0;
 }
 .s2-sub{
@@ -403,7 +432,9 @@ h5{
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     border-style: none;
-    padding: 5px 1em;
+    padding: 15px 1em;
+    border: none;
+    margin-bottom: 2em;
 }
 .s5-cont{
     width: 60%;
@@ -412,9 +443,24 @@ h5{
 .s5-flex{
     width: 60%;
     margin: auto;
-    
-
 }
+
+.hide{
+    display: none;
+    font-size: 14px;
+    width: 80%;
+    padding-top: 2em;
+}
+.s5-column:hover  .hide{
+    display: block;
+}
+.s5-column:hover .fa-angle-up{
+    transform: rotate(-180deg);
+    
+    
+}
+
+
 .s5-column{
     min-height: 30px;
     display: flex;
@@ -422,6 +468,7 @@ h5{
     padding-top: 1em;
     padding-bottom: 1em;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .s5-column i{
     padding-right: 2em;
@@ -468,8 +515,32 @@ footer{
     
     padding-top: 5em;
 }
-footer hr{
+.ft-hr{
     width: 60px;
     color: white;
     margin-left: 10%;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer button{
+    border: none;
+    background: none;
+    color: white;
+}
+.menu{
+    width: 60px;
+    
+    
+}
+#menuhr{
+    width: 100%;
+    margin: 5px 0;
+}
+#lingue{
+    padding: 5px;
 }
